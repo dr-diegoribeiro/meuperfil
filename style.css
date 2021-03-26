@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* customizando scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,7 +26,7 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
+/* estilo full para todo código */
 section{
     padding: 100px 0;
 }
@@ -77,7 +77,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* navbar styling */
+/* navbar  */
 .navbar{
     position: fixed;
     width: 100%;
@@ -126,7 +126,7 @@ section .title::after{
     color: #fff;
 }
 
-/* menu btn styling */
+/* menu btn */
 .menu-btn{
     color: #fff;
     font-size: 23px;
@@ -162,7 +162,7 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* home section  */
 .home{
     display: flex;
     background: url("images/bannerOk.jpg") no-repeat center;
@@ -213,7 +213,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* quem sou */
 .about .title::after{
     content: "quem sou eu";
 }
@@ -257,7 +257,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* projetos  */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -303,7 +303,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* skills */
 
 .skills .title::after{
     content: "conhecimentos";
@@ -379,7 +379,7 @@ section .title::after{
 }
 
 
-/* teams section styling */
+/* formação */
 .teams .title::after{
     content: "qualificações";
 }
@@ -442,7 +442,7 @@ section .title::after{
     background: teal!important;
 }
 
-/* contact section styling */
+/* contato */
 .contact .title::after{
     content: "entre em contato";
 }
@@ -537,7 +537,7 @@ section .title::after{
   color: teal;
   background: none;
 }
-/* footer section styling */
+/* footer */
 footer{
     background: #111;
     padding: 15px 23px;
@@ -553,7 +553,7 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
+/* responsive=idade_media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
