@@ -679,3 +679,15 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+
+.hr2 {
+        border: 0;
+        height: 2px;
+        background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+      
+    }
+
+
+
+
